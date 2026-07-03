@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+nav {
+    width: 100vw;
+    height: 12vh;
+    padding: 3vh 5vw;
+    text-align: center;
+}
+
+.logo {
+    display: inline-block;
+    width: 20%;
+    text-align: left;
+    font-size: 1.8vw;
+    font-weight: bold;
+    color: #4b5563;
+    vertical-align: middle;
+}
+
+.nav-links {
+    display: inline-block;
+    width: 55%;
+    vertical-align: middle;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #9ca3af;
+    margin: 0 1.5vw;
+    font-size: 1.1vw;
+}
+
+.user-profile {
+    display: inline-block;
+    width: 20%;
+    text-align: right;
+    vertical-align: middle;
+}
+
+.user-btn {
+    padding: 1.5vh 2.5vw;
+    background-color: #e0f2fe;
+    color: #38bdf8;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 1vw;
+    cursor: pointer;
+}
+
+.hero {
+    width: 100vw;
+    height: 88vh;
+    padding: 0 8vw;
+}
+
+.hero-left {
+    display: inline-block;
+    width: 48%;
+    height: 100%;
+    vertical-align: top;
+    padding-top: 15vh;
+}
+
+.hero-right {
+    display: inline-block;
+    width: 48%;
+    height: 100%;
+    vertical-align: top;
+    text-align: center;
+    padding-top: 5vh;
+}
+
+.hero-left h1 {
+    font-size: 3.5vw;
+    color: #4b5563;
+    line-height: 1.3;
+    margin-bottom: 2vh;
+}
+
+.hero-left h1 span {
+    color: #38bdf8;
+}
+
+.hero-left p {
+    font-size: 1.1vw;
+    color: #9ca3af;
+    margin-bottom: 5vh;
+    line-height: 1.6;
+    width: 90%;
+}
+
+.book-btn {
+    padding: 2vh 3vw;
+    background-color: #38bdf8;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-size: 1.2vw;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.hero-right img {
+    width: 90%;
+    max-height: 70vh;
+    object-fit: contain;
+}
